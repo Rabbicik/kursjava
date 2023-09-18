@@ -8,4 +8,11 @@ public class pojazdy {
     this.color = color;
     }
 
+    public int getKola() { return kola; }
+    public String getColor() { return color; }
+
+    public int calculate() {
+        return kola * 2;
+
+    }
 }
