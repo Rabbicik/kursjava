@@ -12,7 +12,7 @@ public abstract class pojazdy {
     public String getColor() { return color; }
 
     public int calculate() {
-        return kola * 2;
+        return kola * 10;
 
     }
 
