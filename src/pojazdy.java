@@ -1,4 +1,4 @@
-public class pojazdy {
+public abstract class pojazdy {
 
     private int kola;
     private String color;
@@ -15,4 +15,6 @@ public class pojazdy {
         return kola * 2;
 
     }
+
+    public abstract void activaceBreake();
 }

@@ -5,4 +5,9 @@ public class motory extends pojazdy {
 
     }
 
+
+    @Override
+    public void activaceBreake() {
+
+    }
 }

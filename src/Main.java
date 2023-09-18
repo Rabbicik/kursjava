@@ -7,6 +7,8 @@ public class Main {
         pojazdyList.add(new auta());
         pojazdyList.add(new motory());
 
-        pojazdyList.get(0).
+        for (pojazdy pojazdy : pojazdyList) {
+            pojazdy.activaceBreake();
+        }
     }
 }
