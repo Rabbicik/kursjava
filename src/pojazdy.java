@@ -1,10 +1,11 @@
 public class pojazdy {
 
     private int kola;
+    private String color;
 
-    public pojazdy(int kola) {
+    public pojazdy(int kola, String color) {
     this.kola = kola;
-
+    this.color = color;
     }
 
 }
